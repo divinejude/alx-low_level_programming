@@ -1,8 +1,13 @@
 #include "main.h"
 
 /**
- * print_times_table - prints the n times table, starting with 0
- * @n: number of the times table
+ * print_times_table - Prints the n times table, starting with 0
+ * @n: Number of the times table
+ *
+ * Description: This function prints the multiplication table for
+ *              the given number n. The table is printed in a
+ *              formatted manner with proper spacing and alignment.
+ *              The valid range for n is 0 to 15.
  */
 void print_times_table(int n)
 {
@@ -19,7 +24,7 @@ void print_times_table(int n)
 				{
 					_putchar(k + '0');
 				}
-				else if (k < 10 && j != 0)
+				else if (k < 10)
 				{
 					_putchar(',');
 					_putchar(' ');
