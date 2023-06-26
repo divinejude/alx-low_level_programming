@@ -4,10 +4,10 @@
  * puts2 - Prints every second character of a string.
  * @str: Input string.
  *
- * Description: This function takes an input string and prints only the characters
- *              at even indices, starting with the first character (index 0).
- *              The function calculates the length of the string and iterates over
- *              the characters, printing those at even indices using the _putchar function.
+ * Description: This function takes an input string and prints only the
+ * characters at even indices, starting with the first character (index 0).
+ * The function calculates the length of the string and iterates over the
+ * characters, printing those at even indices using _putchar.
  */
 void puts2(char *str)
 {
@@ -26,9 +26,7 @@ void puts2(char *str)
 	for (o = 0; o <= t; o++)
 	{
 		if (o % 2 == 0)
-		{
 			_putchar(str[o]);
-		}
 	}
 
 	_putchar('\n');
