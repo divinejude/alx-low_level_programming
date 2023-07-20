@@ -39,7 +39,7 @@ int op_mul(int a, int b)
 }
 
 /**
-  * op_div - ...a;ld;lld
+  * op_div - ...
   * @a: ...adllalka
   * @b: ...
   *
